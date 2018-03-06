@@ -58,7 +58,7 @@ def print_tree_center_spaces(base_number):
     left = base_number
     row = 1
     
-    while row <= 5:
+    while row <= base_number:
         print(left*" ",row*"* ")
         left -= 1
         row += 1
